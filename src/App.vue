@@ -63,7 +63,7 @@ window.addEventListener('keydown', handleKeyPress);
 
 <template>
   <DesktopContainer />
-  <el-dialog v-model="dialogVisible" title="Profiles" width="30%" draggable>
+  <el-dialog v-model="dialogVisible" title="EventConfigurator" width="35%" draggable>
     <VariablePanelVue />
   </el-dialog>
 </template>

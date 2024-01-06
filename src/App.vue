@@ -59,6 +59,10 @@ const handleKeyPress = (event) => {
 };
 
 window.addEventListener('keydown', handleKeyPress);
+window.addEventListener('dblclick',() => {
+  dialogVisible.value = true;
+})
+
 </script>
 
 <template>
